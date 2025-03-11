@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Facebook, Twitter, Youtube, Instagram, Globe } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-steam-darkblue px-4 py-12 text-gray-400">
+  return <footer className="bg-steam-darkblue px-4 py-12 text-gray-400">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           {/* Company Info */}
@@ -67,17 +64,13 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between border-t border-gray-800 pt-8 md:flex-row">
-          <p className="mb-4 text-sm md:mb-0">
-            © 2023 PixelPlayHub Corporation. All rights reserved. All trademarks are property of their respective owners.
-          </p>
+          <p className="mb-4 text-sm md:mb-0">© 2023 Zair Balam PixelPlayHub Corporation. All rights reserved. All trademarks are property of their respective owners.</p>
           <div className="flex items-center space-x-2">
             <Globe size={18} />
             <span>English (US)</span>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
