@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between border-t border-gray-800 pt-8 md:flex-row">
-          <p className="mb-4 text-sm md:mb-0">© 2023 Zair Balam PixelPlayHub Corporation. All rights reserved. All trademarks are property of their respective owners.</p>
+          <p className="mb-4 text-sm md:mb-0">© 2025 Zair Balam PixelPlayHub Corporation. All rights reserved. All trademarks are property of their respective owners.</p>
           <div className="flex items-center space-x-2">
             <Globe size={18} />
             <span>English (US)</span>
