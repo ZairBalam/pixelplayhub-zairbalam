@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { CreditCard } from 'lucide-react';
+import { CreditCard, Button as ButtonIcon } from 'lucide-react';
 import { Button } from './ui/button';
 import {
   Dialog,
@@ -61,7 +62,7 @@ const PaymentOptions = () => {
             <div key={method.name}>
               <div className="flex items-start gap-4 py-2">
                 <div className="h-12 w-12 flex-shrink-0 rounded bg-steam-darkblue p-2">
-                  <CreditCard className="h-full w-full text-steam-accent" />
+                  <ButtonIcon className="h-full w-full text-steam-accent" />
                 </div>
                 <div>
                   <h3 className="font-semibold">{method.name}</h3>
