@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import Layout from '../components/Layout';
 import FeatureCard from '../components/FeatureCard';
@@ -7,7 +6,6 @@ import SectionHeader from '../components/SectionHeader';
 import CarouselControls from '../components/CarouselControls';
 import FilterButtons from '../components/FilterButtons';
 import DiscountCountdown from '../components/DiscountCountdown';
-import PaymentOptions from '../components/PaymentOptions';
 import { 
   featuredGames, 
   popularGames, 
@@ -254,19 +252,6 @@ const Index = () => {
               <p className="mb-4 text-gray-300">Stay up-to-date with upcoming game releases, tournaments, and special events.</p>
               <a href="#" className="text-steam-accent hover:underline">View Calendar →</a>
             </div>
-          </div>
-        </section>
-        
-        {/* Payment Options */}
-        <section className="mb-10">
-          <div className="highlight-section flex flex-col items-center justify-between gap-4 p-6 md:flex-row">
-            <div className="text-center md:text-left">
-              <h2 className="mb-2 text-2xl font-bold text-white">Secure Payment Options</h2>
-              <p className="text-gray-300">
-                Multiple secure ways to pay for your games, with regional pricing available in 90+ countries.
-              </p>
-            </div>
-            <PaymentOptions />
           </div>
         </section>
       </div>
